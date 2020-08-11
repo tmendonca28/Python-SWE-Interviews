@@ -1,3 +1,5 @@
+from typing import List
+
 def MathOp():
   
     classic_division = 3/2 
@@ -38,3 +40,13 @@ def getStr(s : str) -> str:
 
 
 print(getStr('abc'))
+
+
+# NB: we can also use s.find(substr)
+def findOccurence(s : str)-> List[int]:
+    occ_b = s.index("b")
+    occ_ccc = s.index("ccc")
+    return [occ_b, occ_ccc]
+
+
+print(findOccurence('aaabbbccc'))
