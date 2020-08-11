@@ -23,3 +23,10 @@ def checkParity(n : int) -> int:
 
 
 print(checkParity(4))
+
+
+def inRange(x : int, y : int) -> bool:
+    return (x < 1/3 < y)
+
+
+print(inRange(2, 3))
