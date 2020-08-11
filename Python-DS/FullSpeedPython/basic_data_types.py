@@ -50,3 +50,11 @@ def findOccurence(s : str)-> List[int]:
 
 
 print(findOccurence('aaabbbccc'))
+
+
+
+def changeCase(s : str) -> List[str]:
+    return [s.upper(), s.lower()]
+
+
+print(changeCase('AAA bbb CCC'))
