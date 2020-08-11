@@ -30,3 +30,11 @@ def inRange(x : int, y : int) -> bool:
 
 
 print(inRange(2, 3))
+
+
+
+def getStr(s : str) -> str:
+    return ''.join(map(lambda x: x*3, s))
+
+
+print(getStr('abc'))
