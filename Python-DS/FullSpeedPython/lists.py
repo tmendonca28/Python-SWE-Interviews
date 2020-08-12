@@ -42,3 +42,9 @@ def getCubes() :
 
 print(getCubes())
 
+def ListOfEvenOdds():
+    l1 = [x for x in list(range(0, 21)) if x%2==0]
+    l2 = [x for x in list(range(0, 21)) if x%2==1]
+    return [l1, l2]
+
+print(ListOfEvenOdds())
