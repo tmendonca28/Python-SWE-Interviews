@@ -33,3 +33,12 @@ def getSquare():
 
 
 print(getSquare())
+
+
+def getCubes() :
+    l1 = [x**3 for x in list(range(1, 21))]
+    return l1
+
+
+print(getCubes())
+
