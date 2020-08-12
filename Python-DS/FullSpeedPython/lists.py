@@ -56,3 +56,11 @@ def evenSquare():
 
 
 print(evenSquare())
+
+
+def getSquareNotDivBy3():
+    l1 = [x**2 for x in list(range(0, 21)) if x%2==0 and x%3!=0]
+    return l1
+
+
+print(getSquareNotDivBy3())
