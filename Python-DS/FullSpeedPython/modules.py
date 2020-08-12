@@ -20,3 +20,23 @@ def findMaximum(x ,y):
     return max(x,y)
 
 print(findMaximum(2, 3))
+
+
+def isDivisible(x ,y):
+    return x%y==0
+
+print(isDivisible(4, 2))
+
+
+def Fibonacci(n):
+   if n <= 1:
+       return n
+   else:
+       return(Fibonacci(n-1) + Fibonacci(n-2))
+
+
+def sum_N_Numbers(n):
+    if n <= 1:
+        return n
+    else:
+        return n + sum_N_Numbers (n - 1)
