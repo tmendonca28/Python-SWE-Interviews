@@ -30,3 +30,26 @@ def updateAges(Students, n):
     return Students
 
 print(updateAges(Students, 1))
+
+
+def totalStudents(Students):
+    return len(Students.keys())
+
+
+print(totalStudents(Students))
+
+
+def calcAverageAge(Students):
+    sum_age = 0
+    for k,v in Students.items():
+        sum_age += v["age"]
+    return sum_age/len(Students)
+
+
+def find_students(students, address):
+    cities = []
+    for k,v in students.items():
+        if v["address"] == address:
+            cities.append(k)
+    
+    return sorted(cities)
