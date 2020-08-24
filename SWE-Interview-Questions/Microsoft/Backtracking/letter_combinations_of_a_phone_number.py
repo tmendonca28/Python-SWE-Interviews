@@ -27,5 +27,6 @@ class Solution:
                 self.dfs(digits, mapping, i+1, path+j, result)
 
     
-    if __name__== "__main__":
-        print(letterCombinations("23"))
+
+if __name__== "__main__":
+    print(Solution.letterCombinations(digits="23"))

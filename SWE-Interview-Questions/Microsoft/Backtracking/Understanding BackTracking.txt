@@ -1,0 +1,10 @@
+Choice
+Constraints
+Goal
+
+solve(row, col ...) {
+
+
+    for loop through decision space
+
+}
