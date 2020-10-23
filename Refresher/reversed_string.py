@@ -6,5 +6,5 @@ of that string.
 def reverse(input: str) -> str:
     if input:
         return input[::-1]
-    return "You Have Inputan Out of Bounds Value."
+    return "You Have Input an Out of Bounds Value."
     
