@@ -10,4 +10,3 @@ def two_sum(num_list, target):
             return [prevMap[diff], i]
         prevMap[n] = i
     return
-

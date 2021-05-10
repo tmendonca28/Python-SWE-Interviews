@@ -1,4 +1,4 @@
-from itertools import chain, cycle, combinations, permutations
+from itertools import chain, combinations, permutations
 
 first_list = ["abc"]
 

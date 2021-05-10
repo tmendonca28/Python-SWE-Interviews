@@ -20,8 +20,9 @@ elements of nums being modified to 0, 1, 2, 3, and 4 respectively.
 It doesn't matter what values are set beyond the returned length.
 """
 
+
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: list[int]) -> int:
         idx = 0
         for i in range(len(nums)):
             if nums[idx] != nums[i]:

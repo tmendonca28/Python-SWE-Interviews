@@ -15,4 +15,3 @@ print()
 
 for color in reversed(colors):
     print(color)
-    

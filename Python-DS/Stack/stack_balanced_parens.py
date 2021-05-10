@@ -4,6 +4,7 @@ has balanced usage of parentheses
 """
 from stack import Stack
 
+
 def is_match(p1, p2):
     if p1 == "(" and p2 == ")":
         return True
@@ -13,6 +14,7 @@ def is_match(p1, p2):
         return True
     else:
         return False
+
 
 def is_paren_balanced(paren_string):
     s = Stack()
@@ -28,7 +30,7 @@ def is_paren_balanced(paren_string):
                 is_balanced = False
             else:
                 top = s.pop()
-                if not  (top, paren):
+                if not(top, paren):
                     is_balanced = False
         index += 1
     if s.is_empty() and is_balanced:

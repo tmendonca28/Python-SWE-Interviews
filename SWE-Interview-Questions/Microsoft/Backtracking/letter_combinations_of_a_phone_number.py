@@ -1,7 +1,5 @@
-from typing import List
-
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits: str) -> list[str]:
         if not digits:
             return []
         mapping = {
@@ -26,7 +24,6 @@ class Solution:
             for j in mapping[digits[i]]:
                 self.dfs(digits, mapping, i+1, path+j, result)
 
-    
 
-if __name__== "__main__":
+if __name__ == "__main__":
     print(Solution.letterCombinations(digits="23"))

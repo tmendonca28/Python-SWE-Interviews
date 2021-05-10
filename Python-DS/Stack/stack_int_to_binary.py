@@ -14,11 +14,10 @@ Example : 242
 
 Reading upwards gives us the binary repr : 11110010
 """
-
 from stack import Stack
 
 
-def div_by_2(dec_num: int) ->  str:
+def div_by_2(dec_num: int) -> str:
     s = Stack()
 
     while dec_num > 0:

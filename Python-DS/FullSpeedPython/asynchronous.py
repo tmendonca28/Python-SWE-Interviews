@@ -1,17 +1,20 @@
 import asyncio
 
+
 async def compute_square(x):
     await asyncio.sleep(1)
     return x * x
+
 
 async def square(x):
     print('Square', x)
     res = await compute_square(x)
     print('End square', x)
     return res
-  
+
 # Create event loop
 loop = asyncio.get_event_loop()
+
 
 async def when_done(tasks):
     for res in asyncio.as_completed(tasks):
